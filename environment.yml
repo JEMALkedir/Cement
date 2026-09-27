@@ -1,0 +1,5 @@
+# Verified from the notebooks' Python 3 kernel metadata only.
+# Add packages and version pins after checking imports and a clean run.
+name: cement-notebooks
+dependencies:
+  - python=3
