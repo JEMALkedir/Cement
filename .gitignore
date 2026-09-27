@@ -1,0 +1,30 @@
+# Local environments and Python/Jupyter artifacts
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.env
+.env.*
+
+# Local input data and generated results; keep directory placeholders
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+outputs/*
+!outputs/.gitkeep
+outputs/figures/*
+!outputs/figures/.gitkeep
+outputs/tables/*
+!outputs/tables/.gitkeep
+outputs/models/*
+!outputs/models/.gitkeep
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
